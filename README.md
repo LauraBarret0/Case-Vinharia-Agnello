@@ -34,9 +34,10 @@ case-vinharia-agnello/
 │   ├── css/
 │   │   └── style.css
 │   └── pages/
-│       ├── pagina1.html
-│       ├── pagina2.html
-│       ├── ...
+│       ├── contato.html
+│       ├── harmonizacao.html
+|       ├── historia.html
+│       ├── vinhos.html
 ```
 ---
 
