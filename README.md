@@ -48,4 +48,4 @@ case-vinharia-agnello/
 
 ## 🌐 Acesse o GitHub pages
 
-🔗 [Clique aqui para acessar o GitHub pages]([https://seu-link-aqui.com](https://laurabarret0.github.io/Case-Vinharia-Agnello/src/pages/historia.html))
+🔗 [Clique aqui para acessar o GitHub pages](https://laurabarret0.github.io/Case-Vinharia-Agnello/src/pages/historia.html)
