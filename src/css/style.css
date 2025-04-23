@@ -1,322 +1,373 @@
 /* Reset */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Georgia', serif;
-    background-color: #e8d8c6;
-    color: #3b1e1e;
-  }
-  
-  /* Header */
-  header {
-    background-color: #341414;
-    color: #e6d5c6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .logo span {
-    font-weight: bold;
-  }
-  
-  nav a,
-  .nav__item a {
-    color: #e6d5c6;
-    margin-left: 20px;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    font-family: ui-serif;
-  }
-  
-  /* Main */
-  .main__vinhos {
-    padding: 30px 50px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  /* Vinhos */
-  .vinhos {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    overflow-x: auto;
-    padding-bottom: 10px;
-    margin: 40px 0;
-    scroll-behavior: smooth;
-  }
-  
-  .produto {
-    text-align: center;
-    max-width: 200px;
-  }
-  
-  .produto img {
-    height: 160px;
-  }
-  
-  .safra {
-    color: #341414;
-    font-size: 14px;
-  }
-  
-  .preco {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px 0;
-  }
-  
-  .controle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  }
-  
-  .controle button,
-  .controle input {
-    padding: 5px 10px;
-    font-size: 14px;
-  }
-  
-  .controle input {
-    width: 50px;
-    text-align: center;
-    border-radius: 20%;
-    background-color: #e6d5c6;;
-  }
-  
-  .adicionar {
-    background-color: #341414;
-    color: #e6d5c6;
-    border: none;
-    border-radius: 10px;
-  }
-  
-  /* Footer */
-  footer,
-  .footer {
-    background-color: #341414;
-    color: #e6d5c6;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    height: 50px;
-  }
-  
-  /* Index */
-  .cabecalho {
-    width: 100%;
-    background-color: #361416;
-    height: 100px;
-    position: relative;
-  }
-  
-  .cabecalho_logo img {
-    height: 50px;
-    margin: 1.5% 0 0 5%;
-  }
-  
-  .nav {
-    display: inline-block;
-    position: absolute;
-    right: 1%;
-    width: 550px;
-    top: 40%;
-  }
-  
-  .nav__item,
-  .nav__lista {
-    display: inline;
-  }
-  
-  /* Banner */
-  .main__banner {
-    width: 100%;
-    position: relative;
-  }
-  
-  .main__banner img {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .banner__titulo {
-    color: #361416;
-    position: absolute;
-    font-size: 48px;
-    font-weight: bold;
-    z-index: 1;
-    top: 20%;
-    left: 26%;
-  }
-  
-  .banner__texto {
-    color: #361416;
-    position: absolute;
-    font-size: 24px;
-    width: 500px;
-    text-align: center;
-    z-index: 1;
-    top: 45%;
-    left: 30%;
-  }
-  
-  /* Sobre nós e Destaque */
-  .main__sobrenos,
-  .main__destaque {
-    background-color: #e8d8c6;
-    width: 100%;
-    position: relative;
-  }
-  
-  .main__sobrenos {
-    height: 300px;
-  }
-  
-  .main__destaque {
-    height: 400px;
-    padding-top: 3%;
-    background-color: #f5e6d7;
-  }
-  
-  .sobrenos__info,
-  .destaque__info {
-    margin: 3% 0 0 10%;
-  }
-  
-  .sobrenos__titulo,
-  .destaque__titulo {
-    color: #361416;
-    font-size: 30px;
-    font-family: ui-serif;
-  }
-  
-  .sobrenos__texto {
-    width: 400px;
-    color: black;
-    margin: 3% 0;
-    font-size: 24px;
-  }
-  
-  .sobrenome__link,
-  .destaque__link {
-    display: inline-block;
-    background-color: #361416;
-    color: #e8d8c6;
-    padding: 1%;
-    border-radius: 20px;
-    width: 150px;
-    text-align: center;
-  }
-  
-  .sobrenos__img,
-  .destaque__img {
-    position: absolute;
-    right: 10%;
-    top: 15%;
-  }
-  
-  .destaque__subtitulo {
-    margin: 1% 0;
-    font-size: 20px;
-  }
-  
-  .destaque__texto {
-    width: 650px;
-    color: black;
-    margin: 1% 0 3%;
-    font-size: 20px;
-  }
-  
-  .destaque__img {
-    width: 300px;
-    border: 2px dotted #361416;
-    border-radius: 50%;
-  }
-  
-  /* História */
-    .main__historia{
-        width: 100%;
-    }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    .historia__titulo{
-        color: #361416;
-        font-size: 40px;
-        text-align: center;
-        margin-top: 5%;
-    }
+a {
+  text-decoration: none;
+}
 
-    .historia__texto{
-        width: 800px;
-        margin: 5% 0 5% 20%;
-        text-align: justify;
-        font-size: 20px;
-    }
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #e8d8c6;
+  color: #3b1e1e;
+}
 
-    /* Tabela e Vídeo */
+/* Header */
+header {
+  background-color: #341414;
+  color: #e6d5c6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
 
-    .main__tabela, .main__video{
-        width: 100%;
-        text-align: center;
-    }
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-    .tabela__titulo, .video__titulo{
-        color: #361416;
-        font-size: 30px;
-        margin-top: 5%;
-    }
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
 
-    table {
-        width: 50%;
-        margin: 20px 0 0 25%;
-    }
-    th, td {
-        border: 1px solid #f2e8e4;
-        padding: 12px;
-        text-align: left;
-    }
-    th {
-        background-color: #361416;
-        color: #fff;
-    }
-    tr:nth-child(2n-1) {
-        background-color: #f2e8e4;
-    }
+.logo span {
+  font-weight: bold;
+}
 
-    .video__texto{
-        width: 800px;
-        margin: 5% 0 5% 20%;
-        text-align: center;
-        font-size: 20px;
-    }
+nav a,
+.nav__item a {
+  color: #e6d5c6;
+  margin-left: 20px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  font-family: ui-serif;
+}
 
-    .video__video{
-        margin-bottom: 5%;
-    }
-    
+/* Main */
+.main__vinhos {
+  padding: 30px 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Vinhos */
+.vinhos {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin: 40px 0;
+  scroll-behavior: smooth;
+}
+
+.produto {
+  text-align: center;
+  max-width: 200px;
+}
+
+.produto img {
+  height: 160px;
+}
+
+.safra {
+  color: #341414;
+  font-size: 14px;
+}
+
+.preco {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.controle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.controle button,
+.controle input {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.controle input {
+  width: 50px;
+  text-align: center;
+  border-radius: 20%;
+  background-color: #e6d5c6;
+  ;
+}
+
+.adicionar {
+  background-color: #341414;
+  color: #e6d5c6;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer,
+.footer {
+  background-color: #341414;
+  color: #e6d5c6;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  height: 50px;
+}
+
+/* Index */
+.cabecalho {
+  width: 100%;
+  background-color: #361416;
+  height: 100px;
+  position: relative;
+}
+
+.cabecalho_logo img {
+  height: 50px;
+  margin: 1.5% 0 0 5%;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  right: 1%;
+  width: 550px;
+  top: 40%;
+}
+
+.nav__item,
+.nav__lista {
+  display: inline;
+}
+
+/* Banner */
+.main__banner {
+  width: 100%;
+  position: relative;
+}
+
+.main__banner img {
+  width: 100%;
+  height: 300px;
+}
+
+.banner__titulo {
+  color: #361416;
+  position: absolute;
+  font-size: 48px;
+  font-weight: bold;
+  z-index: 1;
+  top: 20%;
+  left: 26%;
+}
+
+.banner__texto {
+  color: #361416;
+  position: absolute;
+  font-size: 24px;
+  width: 500px;
+  text-align: center;
+  z-index: 1;
+  top: 45%;
+  left: 30%;
+}
+
+/* Sobre nós e Destaque */
+.main__sobrenos,
+.main__destaque {
+  background-color: #e8d8c6;
+  width: 100%;
+  position: relative;
+}
+
+.main__sobrenos {
+  height: 300px;
+}
+
+.main__destaque {
+  height: 400px;
+  padding-top: 3%;
+  background-color: #f5e6d7;
+}
+
+.sobrenos__info,
+.destaque__info {
+  margin: 3% 0 0 10%;
+}
+
+.sobrenos__titulo,
+.destaque__titulo {
+  color: #361416;
+  font-size: 30px;
+  font-family: ui-serif;
+}
+
+.sobrenos__texto {
+  width: 400px;
+  color: black;
+  margin: 3% 0;
+  font-size: 24px;
+}
+
+.sobrenome__link,
+.destaque__link {
+  display: inline-block;
+  background-color: #361416;
+  color: #e8d8c6;
+  padding: 1%;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.sobrenos__img,
+.destaque__img {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+
+.destaque__subtitulo {
+  margin: 1% 0;
+  font-size: 20px;
+}
+
+.destaque__texto {
+  width: 650px;
+  color: black;
+  margin: 1% 0 3%;
+  font-size: 20px;
+}
+
+.destaque__img {
+  width: 300px;
+  border: 2px dotted #361416;
+  border-radius: 50%;
+}
+
+/* História */
+.main__historia {
+  width: 100%;
+}
+
+.historia__titulo {
+  color: #361416;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.historia__texto {
+  width: 800px;
+  margin: 5% 0 5% 20%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* Tabela e Vídeo */
+
+.main__tabela,
+.main__video {
+  width: 100%;
+  text-align: center;
+}
+
+.tabela__titulo,
+.video__titulo {
+  color: #361416;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+table {
+  width: 50%;
+  margin: 20px 0 0 25%;
+}
+
+th,
+td {
+  border: 1px solid #f2e8e4;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #361416;
+  color: #fff;
+}
+
+tr:nth-child(2n-1) {
+  background-color: #f2e8e4;
+}
+
+.video__texto {
+  width: 800px;
+  margin: 5% 0 5% 20%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.video__video {
+  margin-bottom: 5%;
+}
+
+/* Harmonizacao */
+
+.formh {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.espaconome,
+.espacoharmonizacao {
+  border-radius: 12px;
+}
+
+.filtrar {
+  background-color: #3b1f1f;
+  color: white;
+  border: none;
+  padding: 10px 25px; 
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.espaconome {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #3b1f1f;
+  box-sizing: border-box;
+}
+
+.espacoharmonizacao {
+  width: 100%;
+  height: 120px; 
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #3b1f1f;
+  resize: vertical; 
+  box-sizing: border-box;
+}

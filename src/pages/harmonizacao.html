@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
 
@@ -8,24 +9,50 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="../css/style.css">
-    
+
     <title>Harmonização | Vinharia Agnello</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <a href="../../index.html" class="cabecalho_logo"><img src="/src/assets/imgs/logo.jpg" alt="Logo Vinharia Agnello"></a>
+            <a href="../../index.html" class="cabecalho_logo"><img src="/src/assets/imgs/logo.jpg"
+                    alt="Logo Vinharia Agnello"></a>
         </div>
         <nav>
-        <a href="../../index.html">Início</a>
-        <a href="../pages/historia.html">História</a>
-        <a href="../pages/vinhos.html" class="active">Vinhos</a>
-        <a href="../pages/harmonizacao.html">Harmonização</a>
-        <a href="../pages/contato.html">Contato</a>
+            <a href="../../index.html">Início</a>
+            <a href="../pages/historia.html">História</a>
+            <a href="../pages/vinhos.html" class="active">Vinhos</a>
+            <a href="../pages/harmonizacao.html">Harmonização</a>
+            <a href="../pages/contato.html">Contato</a>
         </nav>
     </header>
+
+    <form class="formh">
+        <br><br>
+        <h1>Ajuda com Harmonização</h1> <br><br>
+        
+            <label for="nome">Nome:</label>
+            <input class="espaconome" type="text" id="nome" name="nome">
+        
+        <br><br>
+
+        <label for="ocasiao">Conte para nós qual é a ocasião e com o que irá comer:</label>
+        <textarea class="espacoharmonizacao" name="ocasiao" id="ocasiao"></textarea> <br><br>
+
+
+        <div class="radio-group">
+            <label>Prefere seco ou doce?</label> <br><br>
+            <label><input type="radio" name="tipo" value="seco">Seco</label><br>
+            <label><input type="radio" name="tipo" value="doce">Doce</label>
+
+        </div>
+
+        <button class="filtrar" type="submit">Filtrar</button>
+    </form>
     <footer>
         <p class="footer__texto">© 2025 Vinharia Agnello, todos os direitos reservados</p>
-      </footer>
+    </footer>
 </body>
+
 </html>
