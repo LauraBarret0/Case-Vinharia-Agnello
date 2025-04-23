@@ -42,9 +42,9 @@ case-vinharia-agnello/
 
 ## 👥 Integrantes
 
+- Laura Barreto - RM561965
 - Matheus Freitas Vieira - RM566198
-- Natália Camargo - RM00002
-- Laura Barreto - RM00003
+- Natália Camargo - RM565769
 
 ## 🌐 Acesse o GitHub pages
 
