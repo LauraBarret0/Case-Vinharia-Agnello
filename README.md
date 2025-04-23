@@ -20,6 +20,7 @@ A página conta com as seguintes seções:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
   <img width="12" />
 </div>
+
 ## 📁 Estrutura do Projeto
 
 ```css
