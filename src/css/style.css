@@ -1,10 +1,156 @@
 /* Reset */
 *{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0;      
 }
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #e8d8c6;
+}
+
 /* Index */
+
+.cabecalho{
+    width: 100%;
+    background-color: #361416;
+    height: 100px;
+    position: relative;
+}
+
+.cabecalho_logo img {
+    width: 150px;
+    margin: 1.5% 0 0 5%;
+}
+
+.nav{
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    width: 550px;
+    top: 40%;
+}
+
+.nav__item, .nav__lista{
+    display: inline; 
+ }
+
+.nav__item a {
+    color: #ebddcc;
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: ui-serif;
+}
+
+.main__banner{
+    width: 100%;
+    position: relative;
+}
+
+.main__banner img{
+    width: 100%;
+    height: 300px;
+}
+
+.banner__titulo{
+    color: #361416;
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    z-index: 1;
+    top: 20%;
+    left: 26%;
+}
+
+.banner__texto{
+    color: #361416;
+    position: absolute;
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    z-index: 1;
+    top: 45%;
+    left: 30%;
+}
+
+.main__sobrenos{
+    background-color: #e8d8c6;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.sobrenos__info, .destaque__info{
+    margin: 3% 0 0 10%;
+}
+
+.sobrenos__titulo, .destaque__titulo{
+    color: #361416;
+    font-size: 30px;
+    font-family: ui-serif;
+}
+
+.sobrenos__texto{
+    width: 400px;
+    color: black;
+    margin: 3% 0;
+    font-size: 24px;
+}
+
+.sobrenome__link, .destaque__link{
+    display: inline-block;
+    background-color: #361416;
+    color: #e8d8c6;
+    padding: 1%;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.sobrenos__img, .destaque__img{ 
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+
+.main__destaque{
+    background-color: #f5e6d7;
+    width: 100%;
+    height: 400px;
+    padding-top: 3%;
+    position: relative;
+}
+
+.destaque__subtitulo{
+    margin: 1% 0 ;
+    font-size: 20px;
+}
+
+.destaque__texto{
+    width: 650px;
+    color: black;
+    margin: 1% 0 3%;
+    font-size: 20px;
+}
+
+.destaque__img{
+    width: 300px;
+    border: 2px dotted #361416;
+    border-radius: 50%;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #361416;
+    text-align: center;
+    color: #e8d8c6;
+    padding: 2% 0 0 ;
+}
+
 /* História */
 /* Vinhos */
 /* Harmonização */
