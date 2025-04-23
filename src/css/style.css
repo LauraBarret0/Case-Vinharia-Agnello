@@ -51,7 +51,7 @@
   }
   
   /* Main */
-  main {
+  .main__vinhos {
     padding: 30px 50px;
   }
   
@@ -231,7 +231,7 @@
     color: #e8d8c6;
     padding: 1%;
     border-radius: 20px;
-    width: 100px;
+    width: 150px;
     text-align: center;
   }
   
@@ -260,9 +260,63 @@
     border-radius: 50%;
   }
   
-  /* Seções futuras */
   /* História */
-  /* Vinhos */
-  /* Harmonização */
-  /* Contato */
-  
+    .main__historia{
+        width: 100%;
+    }
+
+    .historia__titulo{
+        color: #361416;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .historia__texto{
+        width: 800px;
+        margin: 5% 0 5% 20%;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    /* Tabela e Vídeo */
+
+    .main__tabela, .main__video{
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabela__titulo, .video__titulo{
+        color: #361416;
+        font-size: 30px;
+        margin-top: 5%;
+    }
+
+    table {
+        width: 50%;
+        margin: 20px 0 0 25%;
+    }
+    th, td {
+        border: 1px solid #f2e8e4;
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #361416;
+        color: #fff;
+    }
+    tr:nth-child(2n-1) {
+        background-color: #f2e8e4;
+    }
+
+    .video__texto{
+        width: 800px;
+        margin: 5% 0 5% 20%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .video__video{
+        margin-bottom: 5%;
+    }
+    
