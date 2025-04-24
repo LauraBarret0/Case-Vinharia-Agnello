@@ -163,7 +163,7 @@ h2 {
   height: 160px;
 }
 
-.safra {
+h5{
   color: #341414;
   font-size: 14px;
 }
@@ -477,4 +477,8 @@ tr:nth-child(2n-1) {
 
 .endereco{
   text-align: center;
+}
+
+h4{
+  color: #341414;
 }
