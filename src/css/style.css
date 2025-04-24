@@ -410,9 +410,10 @@ tr:nth-child(2n-1) {
   margin-bottom: 5%;
 }
 
-/* Harmonizacao */
+/* Harmonizacao e contato*/
 
-.formh {
+.formh,
+.formc {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
@@ -423,6 +424,7 @@ tr:nth-child(2n-1) {
   border-radius: 12px;
 }
 
+.enviar,
 .filtrar {
   background-color: #3b1f1f;
   color: white;
@@ -434,7 +436,8 @@ tr:nth-child(2n-1) {
   cursor: pointer;
 }
 
-.espaconome {
+.espaconome,
+.espacoemail {
   width: 100%;
   max-width: 100%;
   padding: 10px;
@@ -444,6 +447,7 @@ tr:nth-child(2n-1) {
   box-sizing: border-box;
 }
 
+.espacomensagem,
 .espacoharmonizacao {
   width: 100%;
   height: 120px; 
@@ -453,4 +457,24 @@ tr:nth-child(2n-1) {
   border: 1px solid #3b1f1f;
   resize: vertical; 
   box-sizing: border-box;
+}
+
+.centro {
+  
+  color: #361416;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.vinhosimg {
+    display: block;
+    margin: 0 auto;       
+    width: 200px;          
+    height: auto;         
+}
+
+.endereco{
+  text-align: center;
 }
