@@ -482,3 +482,11 @@ tr:nth-child(2n-1) {
 h4{
   color: #341414;
 }
+
+.link_externo{
+  color: #341414;
+}
+
+.link_externo a:hover{
+  text-decoration: underline;
+}
