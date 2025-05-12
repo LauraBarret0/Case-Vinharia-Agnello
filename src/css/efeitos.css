@@ -1,0 +1,26 @@
+ .enviar:hover {
+     background-color: #230707;
+ }
+
+ .filtrar:hover {
+     background-color: #230707;
+ }
+
+ .adicionar:hover {
+     background-color: #230707;
+ }
+
+ .link_externo:active {
+     color: rgb(150, 0, 0);
+ }
+
+ .link_externo:visited {
+     color: rgb(154, 21, 21);
+ }
+
+ .espacomensagem:focus {
+    height: 150px;  
+    border-color: #5a1e21;  
+    transform: scale(1.05); 
+    outline: none;  
+ }
