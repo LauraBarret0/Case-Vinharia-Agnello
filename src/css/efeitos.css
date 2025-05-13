@@ -72,3 +72,25 @@ h3 a:hover {
         opacity: 1;
     }
 }
+
+
+/* Transformação */
+
+.sobrenome__link,
+.destaque__link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.sobrenome__link:hover,
+.destaque__link:hover {
+  transform: scale(1.1);
+}
+
+.destaque__img {
+  transition: transform 1s ease;
+}
+
+.destaque__img:hover {
+  transform: rotate(45deg);
+}
