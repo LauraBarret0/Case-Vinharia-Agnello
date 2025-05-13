@@ -428,8 +428,7 @@ tr:nth-child(2n-1) {
 }
 
 .espaconome,
-.espacoemail,
-.espacomensagem {
+.espacoemail {
   width: 100%;
   max-width: 100%;
   padding: 10px;
@@ -437,6 +436,15 @@ tr:nth-child(2n-1) {
   border-radius: 12px;
   border: 1px solid #3b1f1f;
   box-sizing: border-box;
+}
+
+.espacomensagem{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #3b1f1f;
 }
 
 .espacoharmonizacao {

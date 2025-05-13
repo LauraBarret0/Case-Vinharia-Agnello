@@ -5,10 +5,18 @@
 .sobrenome__link:hover,
 .destaque__link:hover{
     background-color: #230707;
+    transition: all 1s;
 }
 
 h3 a:hover {
   text-decoration: underline;
+}
+
+.nav__item a{
+    transition: all 1s ;
+}
+.nav__item a:hover{
+    box-shadow: inset 0 -2px 0 0 white;
 }
 
 .link_externo:hover{
@@ -23,10 +31,13 @@ h3 a:hover {
     color: rgb(154, 21, 21);
 }
 
+.espacomensagem{
+    transition: height 2s ease-in, border-color 0.3s ease;
+}
+
 .espacomensagem:focus {
     height: 150px;
     border-color: #5a1e21;
-    transform: scale(1.05);
     outline: none;
 }
 
